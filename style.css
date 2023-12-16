@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+body {
+    font-family: Poppins, Arial;
+    background-color: rgb(245, 244, 246);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.profile-card {
+    width: 300px;
+    background-color:white;
+    border-radius: 20px;
+    
+}
+
+.upper-part {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    border-radius: 22px 22px 0 0;
+    height: 80px;
+    background-color: rgb(64, 113, 237);
+    position: relative;
+    border: 1px solid rgb(64, 113, 237);
+}
+
+.profile-image {
+    position: absolute;
+    bottom: -18px;
+
+}
+
+.profile-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid white;
+    outline: 2px solid rgb(64, 113, 237);
+}
+
+.lower-part {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.name {
+    margin-bottom: 4px;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.info {
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.social-media-buttons {
+    display: grid;
+    grid-template-columns: 40px 40px 40px 40px;
+    margin-bottom: 18px;
+}
+
+.social-media-buttons a {
+    background-color: #4070F4;
+    margin: 0 8px;
+    display: flex;
+    justify-content: center;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+}
+
+.social-media-buttons .facebook {
+    background-color: rgb(63, 104, 172);
+}
+
+.social-media-buttons .twitter {
+    background-color: rgb(27, 159, 237);
+}
+
+.social-media-buttons .instagram {
+    background-color: rgb(227, 44, 107);
+}
+
+.social-media-buttons .youtube {
+    background-color: red;
+}
+
+.contact-buttons button {
+    background-color: rgb(60, 106, 226);
+    font-weight: 400;
+    border: none;
+    color: white;
+    padding: 7px 14px;
+    border-radius: 15px;
+    margin: 0 4px;
+    cursor: pointer;
+}
+
+.stats {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    display: grid;
+    grid-template-columns: 80px 80px 80px;
+}
+
+.stats div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1px;
+}
+.stats i {
+    color: black;
+    margin-right: 4px;
+}
+
+.comments {
+   padding-right: 7px;
+   padding-left: 7px;
+   border-left: 1px solid rgba(187, 178, 178, 0.625);
+   border-right: 1px solid rgb(220, 211, 211);
+}
+
+
+
+
